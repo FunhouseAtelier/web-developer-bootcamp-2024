@@ -1,0 +1,26 @@
+/* Jason's NOTE: This file is done exactly the same way as the lesson shows. The Google Fonts `Embed code` page shows another way to do it, using class selectors instead of element selectors, which might be a better way to do it on a document with many elements, but for simple demonstration purposes it is fine to just use element selectors. */
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h1 + h2 {
+  margin-top: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}

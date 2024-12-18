@@ -1,0 +1,21 @@
+img {
+  width: 30%;
+  /* margin: 1.6666666%; */
+  margin: calc(10% / 6);
+}
+
+nav {
+  font-family: "Raleway", sans-serif;
+  /* Jason's NOTE: The following property was not set in the lesson video, because Raleway was not a variable font. In the lesson, only the 700 weight was being used, but in this example of mine it is a variable font, so the font weight of 700 must be specified. */
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  margin-left: calc(10% / 6);
+  padding: 1.2em 0;
+}
+
+/* 30 + 30 + 30
+
+10% */

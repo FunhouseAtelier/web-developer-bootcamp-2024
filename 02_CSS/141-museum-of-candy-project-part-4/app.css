@@ -1,0 +1,41 @@
+body {
+  background-color: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+  /* Jason's NOTE: This is where Colt forgot to show that he set a CSS property for the font size of the navbar brand again, because the result wasn't what he expected; the brand link font size was smaller than the other links.
+  
+  The font size was not automatically inherited from the properties in the `#mainNavbar` selector above, because the Bootstrap CSS explictly sets the font size of all elements with the `.navbar-brand` class to 1.25rem. That overrides the expected behavior of inheritance. The Bootstrap CSS does not explictly set the font size for all elements with the `.nav-link` class, so inheritance of the `font-size` property automatically works for those links. This is something to watch out for when combining a CSS framework with your own custom CSS.
+
+  I chose a different solution to the problem, setting the font size propety for the navbar brand to `inherit`. That both demonstrates the reason for the unexpected result and also makes more sense if you intend for all links in the #mainNavbar to have the same size. Solving the problem like Colt did, by writing `font-size: 1.5rem` here, works in this sample project, but it is more difficult to manage. Consider if you wanted to change the font size of all navbar text to something else in the future. With Colt's solution you would have to change it in two places, both here and with the `#mainNavbar` selector above. By using `inherit` here I am making it easier to change that size in the future, it would only need to be done with the `#mainNavbar` selector above. */
+  font-size: inherit;
+}
+
+#headingGroup span {
+  color: #ea1c2c;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-size: 3rem;
+  }
+}

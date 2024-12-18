@@ -1,0 +1,23 @@
+/* WRITE YOUR CODE IN HERE!!!!  */
+
+/* Jason's NOTE: This is how I solved it off the top of my head. */
+
+.square:nth-of-type(2n) {
+  background-color: black;
+}
+
+.square:nth-of-type(2n - 1) {
+  background-color: red;
+}
+
+/* Jason's NOTE: it can also be done like this. */
+
+/* .square:nth-of-type(even) {
+  background-color: black;
+}
+
+.square:nth-of-type(odd) {
+  background-color: red;
+} */
+
+/* Jason's NOTE: learn more about `:nth-of-type` here: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type */
