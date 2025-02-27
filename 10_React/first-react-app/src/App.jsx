@@ -10,6 +10,9 @@ import ShoppingList from './ShoppingList'
 import PropertyList from './PropertyList'
 import Clicker from './Clicker'
 import Form from './Form'
+import Counter from './Counter'
+import Toggler from './Toggler'
+import ToggleCounter from './ToggleCounter'
 
 // const data = [
 //   { id: 1, item: 'eggs', quantity: 12, completed: false },
@@ -30,18 +33,30 @@ import Form from './Form'
 function App() {
   return (
     <div>
-      <Form />
-      <Clicker
+      {/* <Counter /> */}
+
+      {/* <ToggleCounter /> */}
+
+      {/* <Toggler /> */}
+
+      {/* <Counter /> */}
+
+      {/* <Form /> */}
+
+      {/* <Clicker
         message="HI!!!!"
         buttonText="Please Click Me"
       />
       <Clicker
         message="Please Stop Clicking Me!"
         buttonText="do not click"
-      />
-      {/* <PropertyList properties={properties} />
-      <ShoppingList items={data} />
-      <Heading
+      /> */}
+
+      {/* <PropertyList properties={properties} /> */}
+
+      {/* <ShoppingList items={data} /> */}
+
+      {/* <Heading
         color="magenta"
         text="welcome!"
         fontSize="20px"
@@ -50,20 +65,25 @@ function App() {
         color="teal"
         text="blah"
         fontSize="48px"
-      />
-      <ColorList colors={['red', 'pink', 'purple', 'teal']} />
+      /> */}
+
+      {/* <ColorList colors={['red', 'pink', 'purple', 'teal']} /> */}
+
+      {/* <DoubleDice />
       <DoubleDice />
-      <DoubleDice />
-      <DoubleDice />
-      <ListPicker values={[1, 2, 3]} />
-      <ListPicker values={['a', 'b', 'c']} />
-      <Greeter
+      <DoubleDice /> */}
+
+      {/* <ListPicker values={[1, 2, 3]} />
+      <ListPicker values={['a', 'b', 'c']} /> */}
+
+      {/* <Greeter
         person="Bill"
         from="Colt"
       />
       <Greeter person="Ted" />
-      <Greeter person="Rosa" />
-      <Die numSides={20} />
+      <Greeter person="Rosa" /> */}
+
+      {/* <Die numSides={20} />
       <Die />
       <Die numSides={10} /> */}
     </div>
