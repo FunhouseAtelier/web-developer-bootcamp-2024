@@ -34,6 +34,3 @@ export default function EmojiClicker() {
     </div>
   )
 }
-
-const makeEverythingAHeart = () =>
-  setEmojis((prev) => prev.map((e) => ({ ...e, emoji: '🧡' })))
